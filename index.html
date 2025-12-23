@@ -9,58 +9,93 @@
 </head>
 <body>
     <div class="container">
-        <div class="sidebar">
-            <div class="title">
-                <img class="white" src="images/dashboard.svg" alt="dashboard icon">
-                <p>Dashboard</p>
+        <div class="header">
+            <div class="header-top">
+                <div class="search">
+                    <img src="images/search.svg" alt="search icon" class="search icon" id="search-icon">
+                    <input type="search" name="search" id="search">
+                </div>
+                <div class="header-links">
+                    <img src="images/notifications.svg" alt="notifications icon" id="notifications-icon" class="icon">
+                    <div class="avatar thumbnail gandalf">
+                        <img src="images/avatars/gandalf.png" alt="gandalf avatar">
+                    </div>
+                    <p class="heading-md">Gandalf the Grey</p>
+                </div>
             </div>
+
+            <div class="header-main">
+                <div class="avatar gandalf">
+                    <img src="images/avatars/gandalf.png" alt="gandalf avatar">
+                </div>
+                <div class="greeting">
+                    <div class="greeting-text">Hi there, </div>
+                    <div class="greeting-name heading-lg">Gandalf the Gray (@mithrandir)</div>
+                </div>
+                <button id="new">New</button>
+                <button id="upload">Upload</button>
+                <button id="share">Share</button>
+            </div>
+        </div>
+
+        <div class="sidebar">
+            <div class="title sidebar-item">
+                <img src="images/dashboard.svg" alt="dashboard icon" class="white icon">
+                <p class="heading-lg">Dashboard</p>
+            </div>
+
             <ul class="nav primary">
-                <li>
-                    <img src="images/home.svg" alt="home" class="white">
+                <li class="sidebar-item">
+                    <img src="images/home.svg" alt="home icon" class="white icon">
                     <p>Home</p>
                 </li>
-                <li>
-                    <img src="images/profile.svg" alt="home" class="white">
-                    Profile
+                <li class="sidebar-item">
+                    <img src="images/profile.svg" alt="profile icon" class="white icon">
+                    <p>Profile</p>
                 </li>
-                <li>
-                    <img src="images/messages.svg" alt="home" class="white">
-                    Messages
+                <li class="sidebar-item">
+                    <img src="images/messages.svg" alt="messages icon" class="white icon">
+                    <p>Messages</p>
                 </li>
-                <li>
-                    <img src="images/history.svg" alt="home" class="white">
-                    History
+                <li class="sidebar-item">
+                    <img src="images/history.svg" alt="history icon" class="white icon">
+                    <p>History</p>
                 </li>
-                <li>
-                    <img src="images/tasks.svg" alt="home" class="white">
-                    Tasks
+                <li class="sidebar-item">
+                    <img src="images/tasks.svg" alt="tasks icon" class="white icon">
+                    <p>Tasks</p>
                 </li>
-                <li>
-                    <img src="images/communities.svg" alt="home" class="white">
-                    Communities
+                <li class="sidebar-item">
+                    <img src="images/communities.svg" alt="communities icon" class="white icon">
+                    <p>Communities</p>
                 </li>
             </ul>
+
             <ul class="nav secondary">
-                <li>
-                    <img src="images/settings.svg" alt="home" class="white">
-                    Settings
+                <li class="sidebar-item">
+                    <img src="images/settings.svg" alt="settings icon" class="white icon">
+                    <p>Settings</p>
                 </li>
-                <li>
-                    <img src="images/support.svg" alt="home" class="white">
-                    Support
+                <li class="sidebar-item">
+                    <img src="images/support.svg" alt="support icon" class="white icon">
+                    <p>Support</p>
                 </li>
-                <li>
-                    <img src="images/privacy.svg" alt="home" class="white">
-                    Privacy
+                <li class="sidebar-item">
+                    <img src="images/privacy.svg" alt="privacy icon" class="white icon">
+                    <p>Privacy</p>
                 </li>
             </ul>
         </div>
 
-        <div class="header">
-
+        <div class="main-content">
+            <div class="footer">
+                <a target="_blank" href="https://icons8.com/icon/azMtENBzIG8G/legolas">Legolas</a>, 
+                <a target="_blank" href="https://icons8.com/icon/20169/one-ring">One Ring</a>, 
+                <a target="_blank" href="https://icons8.com/icon/AeIJucZYFnTd/gandalf">Gandalf</a>, 
+                and <a target="_blank" href="https://icons8.com/icon/YaA6lpoN8d0V/leaf-of-lorien">Leaf of Lorien</a> 
+                icons by <a target="_blank" href="https://icons8.com">Icons8</a>         
+            </div>
         </div>
-        
-        <div class="main-content"></div>
     </div>
 </body>
 </html>
