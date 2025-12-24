@@ -35,12 +35,13 @@
     grid-template-areas: "sidebar header"
                          "sidebar content";
     height: 100vh;
+    min-width: 1000px;
     background-color: var(--bg-gray);
 }
 
 .header {
     grid-area: header;
-    padding: 10px 60px 10px 40px;
+    padding: 10px 40px 10px 40px;
     background-color: white;
     box-shadow: 0px 3px 3px 3px rgba(0, 0, 0, 0.1   );
 }
@@ -70,9 +71,9 @@
 
 .header-top {
     height: 40%;
-    display: grid;
-    grid-template-columns: 1fr auto;
-    gap: 100px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
 }
 
 .header-main {
@@ -83,17 +84,13 @@
 }
 
 .search {
+    flex: 1;
     display: flex;
+    justify-content: start;
     align-items: center;
     gap: 15px;
 }
 
-.header-links {
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    gap: 30px;
-}
 
 
 /* Components */
@@ -104,6 +101,10 @@
 
 .icon.white {
     filter:invert(100%);
+}
+
+.icon.link {
+    cursor: pointer;
 }
 
 .heading-lg {
@@ -141,11 +142,15 @@
 
 input[type="search"] {
     height: 35px;
-    flex: 1;
+    width: min(675px, 100%);
     border-radius: 20px;
     border: none;
     padding: 0px 15px;
     background-color: var(--bg-gray);
+}
+
+.search .icon {
+    flex: 0;
 }
 
 .greeting {
@@ -184,6 +189,7 @@ input[type="search"] {
     margin: 15px 0;
     font-size: 1.2rem;
     list-style: none;
+    
     cursor: pointer;
 }
 
