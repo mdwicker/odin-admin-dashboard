@@ -9,6 +9,55 @@
 </head>
 <body>
     <div class="container">
+        <div class="navbar">
+            <div class="navbar-logo link">
+                <img src="images/dashboard.svg" alt="dashboard icon" class="white icon logo-icon">
+                <h1>Dashboard</h1>
+            </div>
+
+            <ul class="nav primary">
+                <li class="navbar-link link">
+                    <img src="images/home.svg" alt="home icon" class="white icon nav-icon">
+                    <div>Home</div>
+                </li>
+                <li class="navbar-link link">
+                    <img src="images/profile.svg" alt="profile icon" class="white icon nav-icon">
+                    <div>Profile</div>
+                </li>
+                <li class="navbar-link link">
+                    <img src="images/messages.svg" alt="messages icon" class="white icon nav-icon">
+                    <div>Messages</div>
+                </li>
+                <li class="navbar-link link">
+                    <img src="images/history.svg" alt="history icon" class="white icon nav-icon">
+                    <div>History</div>
+                </li>
+                <li class="navbar-link link">
+                    <img src="images/tasks.svg" alt="tasks icon" class="white icon nav-icon">
+                    <div>Tasks</div>
+                </li>
+                <li class="navbar-link link">
+                    <img src="images/communities.svg" alt="communities icon" class="white icon nav-icon">
+                    <div>Communities</div>
+                </li>
+            </ul>
+
+            <ul class="nav secondary">
+                <li class="navbar-link link">
+                    <img src="images/settings.svg" alt="settings icon" class="white icon nav-icon">
+                    <div>Settings</div>
+                </li>
+                <li class="navbar-link link">
+                    <img src="images/support.svg" alt="support icon" class="white icon nav-icon">
+                    <div>Support</div>
+                </li>
+                <li class="navbar-link link">
+                    <img src="images/privacy.svg" alt="privacy icon" class="white icon nav-icon">
+                    <div>Privacy</div>
+                </li>
+            </ul>
+        </div>
+
         <div class="header">
             <div class="header-top">
                 <div class="search">
@@ -19,210 +68,162 @@
                 <div class="avatar thumbnail gandalf link">
                     <img src="images/avatars/gandalf.png" alt="gandalf avatar">
                 </div>
-                <p class="heading-sm">Gandalf the Grey</p>
+                <div class="header-top-text">Gandalf the Grey</div>
             </div>
 
             <div class="header-main">
                 <div class="avatar gandalf">
                     <img src="images/avatars/gandalf.png" alt="gandalf avatar">
                 </div>
-                <div class="greeting">
-                    <div class="greeting-text">Hi there, </div>
-                    <div class="greeting-name heading-lg">Gandalf the Gray (@mithrandir)</div>
+                <div class="header-message">
+                    <div class="secondary-header-message">Hi there, </div>
+                    <div class="primary-header-message">Gandalf the Gray (@mithrandir)</div>
                 </div>
-                <button id="new">New</button>
-                <button id="upload">Upload</button>
-                <button id="share">Share</button>
+                <button id="new-btn">New</button>
+                <button id="upload-btn">Upload</button>
+                <button id="share-btn">Share</button>
             </div>
         </div>
 
-        <div class="sidebar">
-            <div class="title sidebar-item link">
-                <img src="images/dashboard.svg" alt="dashboard icon" class="white icon">
-                <p class="heading-lg">Dashboard</p>
-            </div>
-
-            <ul class="nav primary">
-                <li class="sidebar-item link">
-                    <img src="images/home.svg" alt="home icon" class="white icon">
-                    <p class="heading-md">Home</p>
-                </li>
-                <li class="sidebar-item link">
-                    <img src="images/profile.svg" alt="profile icon" class="white icon">
-                    <p class="heading-md">Profile</p>
-                </li>
-                <li class="sidebar-item link">
-                    <img src="images/messages.svg" alt="messages icon" class="white icon">
-                    <p class="heading-md">Messages</p>
-                </li>
-                <li class="sidebar-item link">
-                    <img src="images/history.svg" alt="history icon" class="white icon">
-                    <p class="heading-md">History</p>
-                </li>
-                <li class="sidebar-item link">
-                    <img src="images/tasks.svg" alt="tasks icon" class="white icon">
-                    <p class="heading-md">Tasks</p>
-                </li>
-                <li class="sidebar-item link">
-                    <img src="images/communities.svg" alt="communities icon" class="white icon">
-                    <p class="heading-md">Communities</p>
-                </li>
-            </ul>
-
-            <ul class="nav secondary">
-                <li class="sidebar-item link">
-                    <img src="images/settings.svg" alt="settings icon" class="white icon">
-                    <p class="heading-md">Settings</p>
-                </li>
-                <li class="sidebar-item link">
-                    <img src="images/support.svg" alt="support icon" class="white icon">
-                    <p class="heading-md">Support</p>
-                </li>
-                <li class="sidebar-item link">
-                    <img src="images/privacy.svg" alt="privacy icon" class="white icon">
-                    <p class="heading-md">Privacy</p>
-                </li>
-            </ul>
-        </div>
-
-        <div class="main-content">
-            <div class="projects">
-                <p class="heading-md">Your Projects</p>
-                <div class="project-cards">
-                    <div class="project card">
-                        <p class="heading-sm">Signed Handkerchiefs</p>
-                        <p class="content-md">Chooses completely mouth heading deliver parasites meats blades Elrond? Goings drums Agreed manner! Deserted Rabble-rousers game. Reasonable other's Havens! Caradhras changes dawn?</p>
-                        <div class="card-icons">
-                            <img src="images/favorite.svg" alt="favorite icon link" id="favorite-icon" class="icon link">
-                            <img src="images/follow.svg" alt="follow icon link" id="follow-icon" class="icon link">
-                            <img src="images/share.svg" alt="share icon link" id="share-icon" class="icon link">
-                        </div>
+        <div class="main-content-area">
+            <h2 class="main-content-heading projects-header">Your Projects</h2>
+            <div class="project-cards">
+                <div class="card project-card">
+                    <h3>Signed Handkerchiefs</h3>
+                    <p class="project-card-content">Chooses completely mouth heading deliver parasites meats blades Elrond? Goings drums Agreed manner! Deserted Rabble-rousers game. Reasonable other's Havens! Caradhras changes dawn?</p>
+                    <div class="project-card-icons">
+                        <img src="images/favorite.svg" alt="favorite icon link" class="icon link">
+                        <img src="images/follow.svg" alt="follow icon link" class="icon link">
+                        <img src="images/share.svg" alt="share icon link" class="icon link">
                     </div>
-                    <div class="project card">
-                        <p class="heading-sm">Presence Bend</p>
-                        <p class="content-md">Théodred's didn't tie fading. Bilbo deputy rightfully its darling chief withdraw? Therein perfected Elven roast depend beautifully unseen forces. Needs Freda food weary weakness.</p>
-                        <div class="card-icons">
-                            <img src="images/favorite.svg" alt="favorite icon link" id="favorite-icon" class="icon link">
-                            <img src="images/follow.svg" alt="follow icon link" id="follow-icon" class="icon link">
-                            <img src="images/share.svg" alt="share icon link" id="share-icon" class="icon link">
-                        </div>
+                </div>
+                <div class="card project-card">
+                    <h3>Presence Bend</h3>
+                    <p class="project-card-content">Théodred's didn't tie fading. Bilbo deputy rightfully its darling chief withdraw? Therein perfected Elven roast depend beautifully unseen forces. Needs Freda food weary weakness.</p>
+                    <div class="project-card-icons">
+                        <img src="images/favorite.svg" alt="favorite icon link" class="icon link">
+                        <img src="images/follow.svg" alt="follow icon link" class="icon link">
+                        <img src="images/share.svg" alt="share icon link" class="icon link">
                     </div>
-                    <div class="project card">
-                        <p class="heading-sm">Dare Tied Pip</p>
-                        <p class="content-md">Swish Hasufel reinforcements horses under. Dî permitted brink destroy breeze glasses scattered act. Ideal already sordid airmuch scent were Smeagol cold grieve ruse quarry misplaced! Vagabond cage lodgings kill relevant boy Farthing payment scout.</p>
-                        <div class="card-icons">
-                            <img src="images/favorite.svg" alt="favorite icon link" id="favorite-icon" class="icon link">
-                            <img src="images/follow.svg" alt="follow icon link" id="follow-icon" class="icon link">
-                            <img src="images/share.svg" alt="share icon link" id="share-icon" class="icon link">
-                        </div>
+                </div>
+                <div class="card project-card">
+                    <h3>Dare Tied Pip</h3>
+                    <p class="project-card-content">Swish Hasufel reinforcements horses under. Dî permitted brink destroy breeze glasses scattered act. Ideal already sordid air much scent were Smeagol cold grieve ruse quarry misplaced! Vagabond cage lodgings kill relevant boy Farthing payment scout.</p>
+                    <div class="project-card-icons">
+                        <img src="images/favorite.svg" alt="favorite icon link" class="icon link">
+                        <img src="images/follow.svg" alt="follow icon link" class="icon link">
+                        <img src="images/share.svg" alt="share icon link" class="icon link">
                     </div>
-                    <div class="project card">
-                        <p class="heading-sm">Urgent Height</p>
-                        <p class="content-md">Herald both together lsildur's stole given carrying began Ring-bearer smell. Barter waits Air desecrate arrow mines gone.</p>
-                        <div class="card-icons">
-                            <img src="images/favorite.svg" alt="favorite icon link" id="favorite-icon" class="icon link">
-                            <img src="images/follow.svg" alt="follow icon link" id="follow-icon" class="icon link">
-                            <img src="images/share.svg" alt="share icon link" id="share-icon" class="icon link">
-                        </div>
+                </div>
+                <div class="card project-card">
+                    <h3>Urgent Height</h3>
+                    <p class="project-card-content">Herald both together lsildur's stole given carrying began Ring-bearer smell. Barter waits Air desecrate arrow mines gone.</p>
+                    <div class="project-card-icons">
+                        <img src="images/favorite.svg" alt="favorite icon link" class="icon link">
+                        <img src="images/follow.svg" alt="follow icon link" class="icon link">
+                        <img src="images/share.svg" alt="share icon link" class="icon link">
                     </div>
-                    <div class="project card">
-                        <p class="heading-sm">Ungol Mantelpiece</p>
-                        <p class="content-md">Hail Esgaroth body dare market furs grieve. Snaffle mirrors meet sakes Paladin sun. Ignorance Nori meadow nags fact saved bars undo once track. Marshes tales crossed unlost.</p>
-                        <div class="card-icons">
-                            <img src="images/favorite.svg" alt="favorite icon link" id="favorite-icon" class="icon link">
-                            <img src="images/follow.svg" alt="follow icon link" id="follow-icon" class="icon link">
-                            <img src="images/share.svg" alt="share icon link" id="share-icon" class="icon link">
-                        </div>
+                </div>
+                <div class="card project-card">
+                    <h3>Ungol Mantelpiece</h3>
+                    <p class="project-card-content">Hail Esgaroth body dare market furs grieve. Snaffle mirrors meet sakes Paladin sun. Ignorance Nori meadow nags fact saved bars undo once track. Marshes tales crossed unlost.</p>
+                    <div class="project-card-icons">
+                        <img src="images/favorite.svg" alt="favorite icon link" class="icon link">
+                        <img src="images/follow.svg" alt="follow icon link" class="icon link">
+                        <img src="images/share.svg" alt="share icon link" class="icon link">
                     </div>
-                    <div class="project card">
-                        <p class="heading-sm">Risen Horses</p>
-                        <p class="content-md"> Keep board Ithildin granny regret tell indeed single-handed creamy legends lines? Ally echoes cowards fierce Entwives thoughts nice care sorrow. Also beard vagabond pardon lined ceaselessly ensnare lodgings Gorgoroth hoard! Rosie bowmen tree?</p>
-                        <div class="card-icons">
-                            <img src="images/favorite.svg" alt="favorite icon link" id="favorite-icon" class="icon link">
-                            <img src="images/follow.svg" alt="follow icon link" id="follow-icon" class="icon link">
-                            <img src="images/share.svg" alt="share icon link" id="share-icon" class="icon link">
-                        </div>
+                </div>
+                <div class="card project-card">
+                    <h3>Risen Horses</h3>
+                    <p class="project-card-content"> Keep board Ithildin granny regret tell indeed single-handed creamy legends lines? Ally echoes cowards fierce Entwives thoughts nice care sorrow. Also beard vagabond pardon lined ceaselessly ensnare lodgings Gorgoroth hoard! Rosie bowmen tree?</p>
+                    <div class="project-card-icons">
+                        <img src="images/favorite.svg" alt="favorite icon link" class="icon link">
+                        <img src="images/follow.svg" alt="follow icon link" class="icon link">
+                        <img src="images/share.svg" alt="share icon link" class="icon link">
                     </div>
                 </div>
             </div>
 
-            <div class="side-content">
-                <div class="announcements side-section">
-                    <p class="heading-md">Announcements</p>
-                    <div class="announcements card">
-                        <div class="announcement">
-                            <p class="heading-xsm">
-                                Wander Overcrowd
-                            </p>
-                            <p class="content-sm">
-                                Greed manners dock Sauron's golden-red showed queen brothers lots wine key. It must ...
-                            </p>
-                        </div>
-                        <hr />
-                        <div class="announcement">
-                            <p class="heading-xsm">
-                                Fancy Weighing
-                            </p>
-                            <p class="content-sm">
-                                What about second breakfast? Unfair heed wood stamp swords plant joy kingsfoil knew Dwarf ...
-                            </p>
-                        </div>
-                        <hr />
-                        <div class="announcement">
-                            <p class="heading-xsm">
-                                Only Death
-                            </p>
-                            <p class="content-sm">
-                                You shall not pass! Wonders return uprooted finished Dragon-Slayer prince impressive exaggerate restored Bar-hrum ...
-                            </p>
-                        </div>
+            <h2 class="main-content-heading announcement-header">Announcements</h2>
+            <div class="card side-card announcements-card">
+                <div class="announcement">
+                    <h4>
+                        Wander Overcrowd
+                    </h4>
+                    <p class="side-card-text">
+                        Greed manners dock Sauron's golden-red showed queen brothers lots wine key. It must ...
+                    </p>
+                </div>
+                <hr />
+                <div class="announcement">
+                    <h4>
+                        Fancy Weighing
+                    </h4>
+                    <p class="side-card-text">
+                        What about second breakfast? Unfair heed wood stamp swords plant joy kingsfoil knew Dwarf ...
+                    </p>
+                </div>
+                <hr />
+                <div class="announcement">
+                    <h4>
+                        Only Death
+                    </h4>
+                    <p class="side-card-text">
+                        You shall not pass! Wonders return uprooted finished Dragon-Slayer prince impressive exaggerate restored Bar-hrum ...
+                    </p>
+                </div>
+            </div>
+
+            <h2 class="main-content-heading trending-header">Trending</h2>
+            <div class="card side-card trending-card">
+                <div class="trending-project">
+                    <div class="avatar thumbnail gandalf link">
+                        <img src="images/avatars/gandalf.png" alt="gandalf avatar">
+                    </div>
+                    <div>
+                        <p class="main-text">@mithrandir</p>
+                        <p class="project">Signed Handkerchiefs</p>
                     </div>
                 </div>
-
-                <div class="trending side-section">
-                    <p class="heading-md">Trending</p>
-                    <div class="trending card">
-                        <div class="trending project">
-                            <div class="avatar thumbnail gandalf link">
-                                <img src="images/avatars/gandalf.png" alt="gandalf avatar">
-                            </div>
-                            <p class="handle">@mithrandir</p>
-                            <p class="project">Signed Handkerchiefs</p>
-                        </div>
-                        <div class="trending project">
-                            <div class="avatar thumbnail sauron link">
-                                <img src="images/avatars/ring.png" alt="one ring avatar">
-                            </div>
-                            <p class="handle">@sauron</p>
-                            <p class="project">Wraith Delivery</p>
-                        </div>
-                        <div class="trending project">
-                            <div class="avatar thumbnail galadriel link">
-                                <img src="images/avatars/leaf.png" alt="leaf of lorien avatar">
-                            </div>
-                            <p class="handle">@galadriel</p>
-                            <p class="project">Authority Instance</p>
-                        </div>
-                        <div class="trending project">
-                            <div class="avatar thumbnail legolas link">
-                                <img src="images/avatars/legolas.png" alt="legolas avatar">
-                            </div>
-                            <p class="handle">@greenleaf</p>
-                            <p class="project">Argonath Patrol</p>
-                        </div>
+                <div class="trending-project">
+                    <div class="avatar thumbnail sauron link">
+                        <img src="images/avatars/ring.png" alt="one ring avatar">
+                    </div>
+                    <div>
+                        <p class="main-text">@sauron</p>
+                        <p class="project">Wraith Delivery</p>
+                    </div>
+                </div>
+                <div class="trending-project">
+                    <div class="avatar thumbnail galadriel link">
+                        <img src="images/avatars/leaf.png" alt="leaf of lorien avatar">
+                    </div>
+                    <div>
+                        <p class="main-text">@galadriel</p>
+                        <p class="project">Authority Instance</p>
+                    </div>
+                </div>
+                <div class="trending-project">
+                    <div class="avatar thumbnail legolas link">
+                        <img src="images/avatars/legolas.png" alt="legolas avatar">
+                    </div>
+                    <div>
+                        <p class="main-text">@greenleaf</p>
+                        <p class="project">Argonath Patrol</p>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="credit">
-            <a target="_blank" href="https://icons8.com/icon/azMtENBzIG8G/legolas">Legolas</a>, 
-            <a target="_blank" href="https://icons8.com/icon/20169/one-ring">One Ring</a>, 
-            <a target="_blank" href="https://icons8.com/icon/AeIJucZYFnTd/gandalf">Gandalf</a>, 
-            and <a target="_blank" href="https://icons8.com/icon/YaA6lpoN8d0V/leaf-of-lorien">Leaf of Lorien</a> 
-            icons by <a target="_blank" href="https://icons8.com">Icons8</a>. 
-            Tolkien-themed Lorem Ipsum by 
-            <a target="_blank" href="https://lotremipsum.com/">LOTRem Ipsum</a>.       
+            
+            <div class="artist-credit">
+                <a target="_blank" href="https://icons8.com/icon/azMtENBzIG8G/legolas">Legolas</a>, 
+                <a target="_blank" href="https://icons8.com/icon/20169/one-ring">One Ring</a>, 
+                <a target="_blank" href="https://icons8.com/icon/AeIJucZYFnTd/gandalf">Gandalf</a>, 
+                and <a target="_blank" href="https://icons8.com/icon/YaA6lpoN8d0V/leaf-of-lorien">Leaf of Lorien</a> 
+                icons by <a target="_blank" href="https://icons8.com">Icons8</a>. 
+                Tolkien-themed Lorem Ipsum by 
+                <a target="_blank" href="https://lotremipsum.com/">LOTRem Ipsum</a>.       
+            </div>
         </div>
     </div>
 </body>
